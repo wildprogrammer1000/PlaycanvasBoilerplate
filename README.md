@@ -1,12 +1,15 @@
-# React + Vite
+## PlayCanvas Engine Integration With React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This boilerplate supports integration with the PlayCanvas engine, allowing you to build 3D web applications with React.
 
-Currently, two official plugins are available:
+### Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+0. Install Packages
 
-## Expanding the ESLint configuration
+```shell
+  npm i
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Modify the settings file at `/src/playcanvas/settings.js`
+
+2. Copy PlayCanvas asset, scene, and config files to `/public/playcanvas/`
